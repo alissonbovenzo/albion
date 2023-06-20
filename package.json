@@ -1,0 +1,16 @@
+{
+  "name": "albion",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node --experimental-modules index.js",
+    "lint": "eslint ."
+  },
+  "type": "module",
+
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "eslint": "^8.42.0"
+  }
+}
